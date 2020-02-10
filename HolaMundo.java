@@ -1,6 +1,4 @@
-package com.company;
-
-public class HolaMundo()
+public class HolaMundo
 {
     public static void main(String [] args)
     {
