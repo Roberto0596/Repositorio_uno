@@ -5,7 +5,7 @@ public class HolaMundo
     public static void main(String [] args)
     {
         Scanner obj = new Scanner(System.in);
-        System.out.println("ingrese su nombre señor");
+        System.out.println("ingrese su nombre vato loco");
         String nombre = obj.nextLine();
         System.out.println("ingrese su apellido vato");
         String apellido = obj.nextLine();
