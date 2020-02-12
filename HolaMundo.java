@@ -12,11 +12,14 @@ public class HolaMundo
         System.out.println("ingrese su edad señor");
         String edad = obj.nextLine();
         persona nueva = new persona(nombre,apellido,edad);
-        imprimirNombre(nueva);
+        for (int i = 0; i<10; i++)
+        {
+            imprimirNombre(nueva);
+        }
     }
 
-    static void imprimirNombre(persona obj)
+    static void imprimirNombre(persona bar)
     {
-        System.out.println(obj.toString());
+        System.out.println(bar.toString());
     }
 }
