@@ -7,11 +7,16 @@ public class HolaMundo
         Scanner obj = new Scanner(System.in);
         System.out.println("ingrese su nombre señor");
         String nombre = obj.nextLine();
-        imprimirNombre(nombre);
+        System.out.println("ingrese su apellido señor");
+        String apellido = obj.nextLine();
+        System.out.println("ingrese su edad señor");
+        String edad = obj.nextLine();
+        persona nueva = new persona(nombre,apellido,edad);
+        imprimirNombre(nueva);
     }
 
-    static void imprimirNombre(String nombre)
+    static void imprimirNombre(persona obj)
     {
-        System.out.println("su nombre es: " + nombre);
+        System.out.println(obj.toString());
     }
 }
